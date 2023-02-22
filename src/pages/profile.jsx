@@ -7,7 +7,7 @@ export default function Profile() {
         <div className="grid justify-items-center my-20">
             <div className="bg-gray-600 w-2/3 grid justify-items-center rounded-lg py-10">
                 <img src={users[params.id].image} className="w-32 h-32 object-cover rounded-full border-2 border-red-500" alt="" />
-                <p className="text-white text-2xl mb-3">{users[params.id].username}</p>
+                <p className="text-white text-2xl mb-3">@{users[params.id].username}</p>
                 <div className="flex gap-10">
                     <div className="grid gap-3 text-center">
                         <p className="text-white text-2xl">{users[params.id].follower}</p>

@@ -12,7 +12,7 @@ export default function HomePage() {
                             <div className="bg-gray-700 flex items-center rounded-lg p-3">
                                 <img src={data.image} alt="" className="h-24 w-24 object-cover rounded-full" />
                                 <div className="ml-4 grid gap-3">
-                                    <p className="text-white">{data.username}</p>
+                                    <p className="text-white">@{data.username}</p>
                                     <p className="text-white">Follower: {data.follower}</p>
                                 </div>
                             </div>
